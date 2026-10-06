@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Blog</title>
+    <link rel="stylesheet" href="css/Stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Full name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120">
+            </div>
+            <div>
+                <label for="date">Preferred contact date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <fieldset>
+                <legend>Preferred contact method</legend>
+                <label><input type="radio" name="method" value="email" checked> Email</label>
+                <label><input type="radio" name="method" value="phone"> Phone</label>
+                <label><input type="radio" name="method" value="chat"> Chat</label>
+            </fieldset>
+            <fieldset>
+                <legend>Topics of interest</legend>
+                <label><input type="checkbox" name="topics" value="html"> HTML</label>
+                <label><input type="checkbox" name="topics" value="css"> CSS</label>
+                <label><input type="checkbox" name="topics" value="databases"> Databases</label>
+            </fieldset>
+            <div>
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="question">General question</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="collab">Collaboration</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit">Send message</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Blog</p>
+    </footer>
+</body>
+</html>

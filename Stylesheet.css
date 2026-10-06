@@ -1,0 +1,40 @@
+h1{
+    color: rgb(0, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+body{
+    background-color: rgb(59, 46, 33);
+    color: aliceblue;
+}
+
+/* ---------- Contact form ---------- */
+form { max-width: 600px; }
+form div { margin-bottom: 14px; }
+form label { display: block; font-weight: bold; margin-bottom: 4px; }
+input[type="text"], input[type="email"], input[type="number"],
+input[type="date"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    font: inherit;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 4px;
+}
+fieldset {
+    margin: 0 0 14px;
+    padding: 10px 15px;
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 4px;
+}
+legend { font-weight: bold; color: rgb(0, 255, 255); }
+fieldset label { display: inline-block; font-weight: normal; margin-right: 15px; }
+button {
+    padding: 10px 24px;
+    font: inherit;
+    cursor: pointer;
+    background-color: rgb(0, 255, 255);
+    color: rgb(59, 46, 33);
+    border: none;
+    border-radius: 4px;
+}
